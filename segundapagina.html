@@ -1,1 +1,254 @@
 <!-- Código HTML segunda pagina -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Obras audiovisuales — Portfolio de Micaela Schindler, diseñadora gráfica.">
+    <meta name="author" content="Micaela Schindler">
+
+    <title>M_ICA — Obras audiovisuales</title>
+
+    <!-- Mismo styles.css que index.html: un solo archivo controla las 3 páginas -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- =========================================================
+         HEADER — idéntico en las 3 páginas para coherencia visual
+         ========================================================= -->
+    <header class="site-header">
+        <span class="logo">M_ICA</span>
+        <p class="titulo-header">Obras audiovisuales</p>
+        <p class="subtitulo-header">Video · Audio · Diseño en movimiento</p>
+    </header>
+
+
+    <!-- =========================================================
+         NAVEGACIÓN — "Obras audiovisuales" marcado como activo
+         ========================================================= -->
+    <nav class="nav-principal" aria-label="Navegación principal">
+        <a href="index.html">Presentación</a>
+        <a href="segundapagina.html" class="activo">Obras audiovisuales</a>
+        <a href="tercera.html">Contacto</a>
+    </nav>
+
+
+    <!-- =========================================================
+         CONTENIDO PRINCIPAL
+         ========================================================= -->
+    <main>
+
+
+        <!-- =====================================================
+             SECCIÓN 1 — PROYECTO PROPIO: ACE STRIDER
+             ===================================================== -->
+        <section aria-labelledby="titulo-proyecto">
+
+            <h1 id="titulo-proyecto">Proyecto Ace Strider</h1>
+
+            <p>
+                Video publicitario realizado para la materia
+                <strong>Audiovisual</strong> en 2024.
+                La pieza presenta las zapatillas Ace Strider a través de
+                una estética de degradados rosa-fucsia-violeta,
+                tipografía bold en negro y composiciones geométricas.
+            </p>
+
+            <p>
+                El concepto visual trabaja el contraste entre la
+                <strong>energía del color</strong> y la
+                <strong>precisión tipográfica</strong>,
+                con el slogan <em>«Rendimiento sin límites»</em>
+                como cierre de la pieza.
+            </p>
+
+            <!-- ESPACIO PARA TU VIDEO PROPIO
+                 Opción A: subís tu video a YouTube y copiás el código embed aquí.
+                 Opción B: subís el archivo .mp4 a la carpeta y usás <video>.
+
+                 Para embeber desde YouTube:
+                 1. Abrí tu video en YouTube
+                 2. Clic en Compartir → Insertar
+                 3. Copiá el <iframe> y reemplazá el de abajo
+
+                 Para embeber desde Vimeo:
+                 1. Abrí tu video en Vimeo
+                 2. Clic en Compartir → Insertar
+                 3. Copiá el <iframe> y reemplazá el de abajo
+            -->
+            <div class="bloque-video">
+                <!-- REEMPLAZÁ ESTE IFRAME CON EL DE TU PROPIO VIDEO
+                     Ejemplo YouTube: src="https://www.youtube.com/embed/TU-ID-DE-VIDEO"
+                     Ejemplo Vimeo:   src="https://player.vimeo.com/video/TU-ID-DE-VIDEO" -->
+                <iframe
+                    src="about:blank"
+                    title="Proyecto Ace Strider — Video publicitario, Micaela Schindler, 2024"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+                <!-- allowfullscreen: permite abrir el video en pantalla completa -->
+            </div>
+
+            <p class="atribucion">
+                Micaela Schindler, <em>«Ace Strider — Rendimiento sin límites»</em>, 2024.
+                Video publicitario realizado para la materia Audiovisual,
+                Tecnicatura en Diseño Gráfico.
+                <!-- Completá con: Universidad, materia, docente si corresponde -->
+                Todos los derechos reservados sobre la obra propia.
+            </p>
+
+        </section>
+
+
+        <hr>
+
+
+        <!-- =====================================================
+             SECCIÓN 2 — VIDEO EXTERNO DE REFERENCIA
+             Video de referencia estética/audiovisual con licencia
+             abierta o embed público de YouTube/Vimeo.
+             ===================================================== -->
+        <section aria-labelledby="titulo-referencia-video">
+
+            <h1 id="titulo-referencia-video">Referencia audiovisual</h1>
+
+            <p>
+                El video a continuación es una referencia de diseño
+                audiovisual y tipografía en movimiento que influyó
+                en mi proceso creativo.
+            </p>
+
+            <!-- VIDEO EXTERNO DE REFERENCIA
+                 Instrucciones para completar:
+                 1. Elegí un video de YouTube/Vimeo que sea una referencia estética.
+                    Puede ser: un documental de diseño, un showreel, una entrevista
+                    a un/a diseñador/a, un timelapse de proceso creativo.
+                 2. Copiá el código embed y reemplazá el iframe de abajo.
+                 3. Completá el bloque de atribución con autor/a, título, año, plataforma.
+
+                 Sugerencias de contenido open/público en YouTube:
+                 - Documental "Helvetica" (2007) — Gary Hustwit
+                   Fragmentos disponibles en: https://www.youtube.com/watch?v=wkoX0pEwSCw
+                 - TED: "Diseño y destino" — Paula Scher
+                   https://www.youtube.com/watch?v=bY9ADBI3-dM
+                 - "Objectified" (2009) — Gary Hustwit (diseño industrial)
+                   https://www.youtube.com/watch?v=B5gKFEfWQwE
+            -->
+            <div class="bloque-video">
+                <!-- REEMPLAZÁ src="about:blank" con la URL embed de tu video elegido -->
+                <iframe
+                    src="about:blank"
+                    title="[Completar: título del video de referencia]"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+            <p class="atribucion">
+                <!-- Completá con los datos reales del video que elijas -->
+                [Autor/a o director/a], <em>«[Título del video]»</em>, [año].
+                Publicado en [YouTube / Vimeo / plataforma].
+                Enlace:
+                <a href="[URL del video original]" target="_blank" rel="noopener noreferrer">
+                    [URL del video]
+                </a>.
+                <!-- Si el video es CC, indicá: Licencia [CC BY / CC BY-SA / etc.] -->
+                <!-- Si es un embed público de YouTube: el video pertenece a su autor/a original. -->
+            </p>
+
+        </section>
+
+
+        <hr>
+
+
+        <!-- =====================================================
+             SECCIÓN 3 — REFERENCIA MUSICAL / AUDIO
+             ===================================================== -->
+        <section aria-labelledby="titulo-audio">
+
+            <h1 id="titulo-audio">Preferencias musicales</h1>
+
+            <p>
+                La música acompaña mi proceso de diseño.
+                A continuación, una selección de lo que escucho
+                mientras trabajo.
+            </p>
+
+            <!-- AUDIO / PLAYLIST
+                 Opción A: Embeber desde Spotify (no requiere cuenta)
+                 Copiá el embed desde Spotify → Compartir → Insertar
+                 Ejemplo:
+                 <iframe style="border-radius:12px"
+                     src="https://open.spotify.com/embed/track/ID-DE-PISTA"
+                     width="100%" height="152" frameborder="0"
+                     allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                     loading="lazy">
+                 </iframe>
+
+                 Opción B: Embeber desde SoundCloud
+                 Ir al track → Compartir → Embed → copiar el iframe
+
+                 Opción C: Embeber desde YouTube Music / YouTube
+                 Una playlist o video musical de tu preferencia.
+            -->
+
+            <!-- REEMPLAZÁ ESTE BLOQUE CON TU EMBED DE AUDIO -->
+            <div style="background-color: #1c1c1c; border: 2px dashed #2a2a2a; border-radius: 4px; padding: 32px 24px; margin-bottom: 12px;">
+                <p style="color: rgba(255,255,255,0.30); font-size: 0.8rem; letter-spacing: 1px; text-align: center; margin: 0; max-width: none;">
+                    [ AUDIO: pegá aquí tu embed de Spotify, SoundCloud o YouTube ]
+                </p>
+            </div>
+
+            <p class="atribucion">
+                <!-- Completá con los datos del audio que uses -->
+                [Artista], <em>«[Nombre de la canción / playlist]»</em>, [año].
+                Publicado en [Spotify / SoundCloud / plataforma].
+                Los derechos musicales corresponden a sus respectivos autores.
+            </p>
+
+        </section>
+
+
+        <hr>
+
+
+        <!-- =====================================================
+             NAVEGACIÓN DE RETORNO — enlace de vuelta al inicio
+             Cumple el punto 10: las páginas pueden navegarse
+             de ida y vuelta.
+             ===================================================== -->
+        <section aria-labelledby="titulo-volver">
+            <h2 id="titulo-volver">Seguir navegando</h2>
+            <p>
+                ← <a href="index.html">Volver a Presentación</a>
+                &nbsp;·&nbsp;
+                <a href="tercera.html">Ir a Contacto →</a>
+            </p>
+        </section>
+
+
+    </main>
+
+
+    <!-- =========================================================
+         FOOTER — idéntico en las 3 páginas
+         ========================================================= -->
+    <footer class="site-footer">
+        <p>
+            &copy; 2024–2026 Micaela Schindler &nbsp;·&nbsp;
+            <a href="https://mischindlerdisenografico.wordpress.com/"
+               target="_blank" rel="noopener noreferrer">Blog M_ICA</a>
+            &nbsp;·&nbsp;
+            <a href="mailto:micaelaschindler@upc.edu.ar">micaelaschindler@upc.edu.ar</a>
+            &nbsp;·&nbsp;
+            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+               target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a>
+        </p>
+    </footer>
+
+</body>
+</html>
